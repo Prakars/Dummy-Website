@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    display:flex;
+    background-color: rgb(27, 15, 15);
+    padding:15px 0px;
+    position:sticky;
+    top:0px;
+}
+nav a{
+    flex:100%;
+    padding: 20px 14px;
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
+.myslide{
+    height: 90vh;
+    width: 100%;
+}
+.content{
+    position:relative;
+    color:azure;
+    top:-20vh;
+    text-align: center;
+    font-family: sans-serif;
+}
+.band{
+    position:relative;
+    top:30vh;
+    width:60%;
+    text-align: center;
+    margin: auto;
+}
+.main{
+    display:flex;
+    justify-content:space-around;
+}
+.side{
+    
+    height: 120px;
+    width:130px;
+}
+.m{
+    opacity:60%;
+}
+.tour{
+    padding:50px 0px;
+    margin:300px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.date{
+    background-color:white;
+    color: black;
+    width: 55%;
+    text-align: left;
+    padding: 10px 20px 2px 10px;
+    margin: auto;
+
+}
+.lft{
+    background-color:rgb(212, 104, 104);
+    color:white;
+    padding:0px 10px;
+    
+}
+.tr{
+    background-color: black;
+    color: white;
+    border-radius:90%;
+    text-align: right;
+    
+}
+hr{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.card{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    background-color: black;
+    width:60%;
+    margin: auto;
+    padding:70px 0px;
+    
+}
+.new{
+    height: 400px;
+    width:200px;
+    background-color: azure;
+    color: black;
+}
+
+.bbt{
+    background-color: black;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px;
+}
+.bbt:hover{
+    background-color: rgb(216, 209, 209);
+    color: black;
+}
+.c{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    position: relative;
+    top:-200px;
+}
+.cnt{
+    width:60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    justify-content:space-around;
+    position: relative;
+    top:-180px;
+}
+.form{
+    justify-content: center;
+
+}
+#nm,#eml{
+    width:150px;
+}
+#msg{
+    width:303px;
+}
+.ins{
+    margin: 10px;
+    padding: 0px;
+    text-align: right;
+    
+}
+.rt{
+    background-color: black;
+    color: azure;
+    justify-content: center;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 10%;
+}
+.rt:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.im:hover{
+opacity: 50%;
+fill-opacity: rgb(29, 27, 27);
+}
+#more{
+    background-color: black;
+    color: white;
+    border: 0ch;
+    
+
+}
+#more:hover{
+    color: black;
+    background-color: white;
+
+}
